@@ -6,6 +6,7 @@
   justify-content: space-between;
   align-items: center;
 }
+
 .tam {
   font-size: 3.5rem;
   font-weight: 600;
@@ -25,6 +26,12 @@
   color: #141414;
   display: block;
   border: solid black 0.2rem;
+}
+
+.fade-in {
+  opacity: 0;
+  visibility: hidden; 
+  transition: opacity 0.5s ease, visibility 0s ease 0.5s;
 }
 
 @media (max-width: 800px) {

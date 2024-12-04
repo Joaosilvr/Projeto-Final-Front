@@ -33,6 +33,12 @@
   color: #525252;
 }
 
+.fade-in {
+  opacity: 0;
+  visibility: hidden; 
+  transition: opacity 0.5s ease, visibility 0s ease 0.5s;
+}
+
 @media (max-width: 1000px) {
   .introducao h1 {
     font-size: 3rem;
